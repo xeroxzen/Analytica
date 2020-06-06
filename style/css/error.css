@@ -1,0 +1,22 @@
+.error-header {
+    color: red;
+    font-size: 65px;
+    font-family: 'Rubik';
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: COMIC-SANS-MS;
+}
+
+a {
+    float: center;
+    width: auto;
+}
+
+.error-msg,
+h1,
+p {
+    text-align: center;
+}

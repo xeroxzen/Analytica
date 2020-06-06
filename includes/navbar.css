@@ -1,0 +1,49 @@
+.nav-switch {
+	display: none;
+}
+
+.nav-section {
+	background: #020031;
+}
+
+.nav-section .nav-right {
+	float: right;
+	padding-top: 23px;
+}
+
+.nav-section .nav-right a {
+	color: #fff;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.main-menu {
+	list-style: none;
+}
+
+.main-menu li {
+	display: inline;
+}
+
+@media only screen (min-width: 100px) and (max-width: 1300px){
+}
+.main-menu li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 100%;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 25px 20px;
+	margin-right: -5px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.main-menu li a:hover {
+	background: #f6783a;
+}
+
+.main-menu li.active a {
+	background: #f6783a;
+}

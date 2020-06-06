@@ -1,0 +1,197 @@
+/*
+CSS Default Reset
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+/*HTML5 display-role reset for older browsers*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    background: black;
+    font-family: 'Rubik', 'Roboto', sans-serif, 'Times New Roman', Latos;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.main_wrapper {
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    /*background-image: url('../images/beehive.jpg');*/
+}
+
+select:hover {
+    color: magenta;
+    text-decoration: none;
+    border-color: 2px groove purple;
+    font-weight: bolder;
+}
+
+#header {
+    width: 1300px;
+    height: 120px;
+    background-image: url('../images/beehive.jpg');
+    background-color: darkcyan;
+    border: 2px solid black;
+    /*margin-top: 30px;*/
+}
+
+#admin_header {
+    color: magenta;
+    font-family: Roboto, latos, lotus, Rubik;
+    font-weight: 400px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#right {
+    width: 200px;
+    height: auto;
+    float: right;
+    background-color: black;
+    border: 2px groove red;
+}
+
+#right h3{
+    font-size: 14px;
+    color: purple;
+    font-family: Rubik;
+    font-weight: lighter;
+}
+
+#right a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 8px;
+    font-family: Palatino;
+    padding: 6px;
+    margin: 6px;
+    display: block;
+}
+
+#right a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: orange;
+}
+
+#left {
+    width: 1100px;
+    height: 600px;
+    background-color: white;
+    float: left;
+    border-left: 3px groove darkcyan;
+}
+
+.active{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: orange;
+}
+
+table td {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+}
